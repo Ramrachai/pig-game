@@ -19,7 +19,7 @@
   z-index: 2;
 }
 .player-name {
-  font-size: 4vw;
+  font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -30,7 +30,7 @@
 
 .player-score {
   text-align: center;
-  font-size: 5vw;
+  font-size: 6rem;
   font-weight: 300;
   color: #ffffff;
   margin: 50px 0;
@@ -100,9 +100,10 @@
   .all-btn {
     margin-top: 30px;
   }
-  .player-score {
-    font-size: 20vw;
+  .player-name {
+    font-size: 1.5rem;
   }
+
   .dice {
     position: absolute;
     top: -160%;
