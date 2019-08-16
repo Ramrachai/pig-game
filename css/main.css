@@ -48,8 +48,8 @@
   font-size: 47px;
   position: absolute;
   color: #99ffff;
-  top: -7px;
-  right: 10px;
+  top: -70%;
+  right: 50%;
   animation: blink 1s linear infinite;
 }
 @keyframes blink {
@@ -110,5 +110,8 @@
     left: 40%;
     width: 80px;
     height: auto;
+  }
+  .active .player-name::after {
+    top: -38px;
   }
 }

@@ -1,8 +1,8 @@
-Click here to live preview : <a href= 'https://jumtech.net/game/pig/'> [LIVE PREVIEW] </a>
+Click here to see live preview : <a href= 'https://jumtech.net/game/pig/'> [LIVE PREVIEW] </a> <br>
 
-Technology used: HTML, CSS , Bootstrap, Vanilla JavaScript
-Library used: <a href = 'https://vincentgarreau.com/particles.js/'> particlejs </a>
-Used icons : <a href = 'https://ionicons.com/'> ION ICONS </a>
+Technology used: HTML, CSS , Bootstrap, Vanilla JavaScript <br>
+Library used: <a href = 'https://vincentgarreau.com/particles.js/'> particlejs </a> <br>
+Used icons : <a href = 'https://ionicons.com/'> ION ICONS </a> <br>
 
 Features:
 
@@ -12,6 +12,6 @@ Features:
 - older IE support warnings
 - Interactive background particles with mouse pointer
 
-Email: ramrachaim@gmail.com
-phone: 8801732900565
+Email: ramrachaim@gmail.com <br>
+phone: 8801732900565 <br>
 website: jumtech.net
