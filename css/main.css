@@ -1,0 +1,114 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.wrapper {
+  background: url("../img/bg.webp") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+.particles-js-canvas-el {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.game-ui {
+  position: relative;
+  z-index: 2;
+}
+.player-name {
+  font-size: 4vw;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.player-score {
+  text-align: center;
+  font-size: 4.5vw;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 50px 0;
+}
+
+.active {
+  background-color: #fce2bd66;
+}
+.active .player-name {
+  font-weight: 700;
+}
+
+.active .player-name::after {
+  content: "\2022";
+  font-size: 47px;
+  position: absolute;
+  color: #99ffff;
+  top: -7px;
+  right: 10px;
+  animation: blink 1s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.player-current-box {
+  background-color: #eb4d4d;
+  color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  padding: 12px;
+  text-align: center;
+}
+
+.player-current-label {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.player-current-score {
+  font-size: 30px;
+}
+.dice {
+  width: 50%;
+}
+
+.winner {
+  background-color: #84eb4d;
+}
+.winner .player-name {
+  font-weight: 300;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  .all-btn {
+    margin-top: 30px;
+  }
+  .player-score {
+    font-size: 3rem;
+  }
+
+  .dice {
+    position: absolute;
+    top: -160%;
+    left: 40%;
+    width: 80px;
+    height: auto;
+  }
+}
