@@ -1,4 +1,4 @@
-Click here to see live preview : <a href= 'https://jumtech.net/game/pig/'> [LIVE PREVIEW] </a> <br>
+Click here to see live preview : <a href= 'https://jumtech.net/games/pig/'> [LIVE PREVIEW] </a> <br>
 
 Technology used: HTML, CSS , Bootstrap, Vanilla JavaScript <br>
 Library used: <a href = 'https://vincentgarreau.com/particles.js/'> particlejs </a> <br>
